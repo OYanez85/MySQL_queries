@@ -129,24 +129,31 @@ The **University** database models a basic university system. It includes tables
    ```bash
    git clone https://github.com/OYanez85/MySQL_queries.git
 Organize Files: If you haven't already organized files into folders:
-Create directories:
 
+Create directories:
+```bash
 cd MySQL_queries
 mkdir -p Store
 mkdir -p University
+```
 Move store-related files:
-
+```bash
 mv Store_DB.sql schema_tienda.sql Store/
+```
 Move university-related files:
-
+```bash
 mv University_Queries.sql schema_universidad.sql University/
+```
 Stage and commit the changes:
-
+```bash
 git add .
 git commit -m "Organize files into Store and University folders"
+```
 Push the changes to GitHub:
-
+```bash
 git push origin main
+```
 Import SQL Files:
+
 Load Store/Store_DB.sql and Store/schema_tienda.sql to set up the Store database.
 Load University/schema_universidad.sql and run the queries in University/University_Queries.sql to interact with the University database.
