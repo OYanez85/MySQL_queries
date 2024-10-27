@@ -1,5 +1,5 @@
 # MySQL_queries
-AssignmentTasca_S2.02
+Assignment_S2.02
 
 # University and Store Project
 
